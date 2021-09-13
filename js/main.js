@@ -1,5 +1,35 @@
 
 
+
+/* exemplo function 1
+function soma(n1, n2){
+    return n1 + n2;
+}
+alert (soma(5, 10));
+*/
+
+/*exemplo de funções 2
+function validaidade(idade){
+    var validar;
+    if(idade >=18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+ var idade = prompt("qual sua idade");
+ console.log(validaidade(idade));
+*/
+
+/* funções exemplo 3
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(setReplace("vai japão", "japão", "brasil"));
+*/
+
+
 /*
 data
 Date
