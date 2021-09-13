@@ -1,7 +1,50 @@
+
+
+/*
+data
+Date
+var d = new Date();
+alert(d.getFullYear())
+alert(d.getMonth())
+alert(d.getDay())
+alert(d.getHours())
+alert(d.getMinutes())
+alert(d.getSeconds())
+*/
+/*
+//estrutura de repetição
+exemplo 2
+
+var count;
+for(count 0; count <=5; count++){
+    alert(count);
+};
+*/
+
+/*
+exemplo 1
+var count =0;
+while(count <=5){
+    console.log(count);
+    count++;
+};
+*/
+
+/*condicionais if/else
+var idade = prompt("qual a sua idade?");//prompt faz uma pergurta ao usuario 
+if(idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+*/
+
+
+/*
 var frutas = [{nome:"maça", cor:"vermelha"},{nome:"uva", cor:"roxa"}];//lista de DICIONARIO
 console.log(frutas);
 alert(frutas[1].nome);
-
+*/
 
 
 /*
