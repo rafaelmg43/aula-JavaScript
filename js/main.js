@@ -1,5 +1,33 @@
+ function clicou(){
+     document.getElementById("agradecimento").innerHTML = "<b>obrigado por clicar</b>"
+     //console.log(document.getElementById("agradecimento"));
+     //alert("obrigado por tentar")
+ }
 
+ function redirecionar(){
+     window.open("https://github.com/rafaelmg43/aula-JavaScript");//abre em uma nova aba
+     //window.location.href = "https://github.com/rafaelmg43/aula-JavaScript";//abre na mesma aba
+ }
 
+ function trocar(elemento){
+     //document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse aqui";
+     elemento.innerHTML = "obrigado por passar o mouse aqui";
+     //alert("trocar texto")
+ }
+
+  function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "passe o mouse aqui";
+      elemento.innerHTML = "passe o mouse aqui";//modo mais facil para trocar mensagem ao passar mouse
+  }
+
+  function load(){//carrega a pagina inicial com uma mensagem
+      alert("pagina carregada");
+  }
+
+  function funcaochange(elemento){//onchange sempreqeu se troca o valor ele armazena o valor trocado
+      console.log(elemento.value)
+
+  }
 
 /* exemplo function 1
 function soma(n1, n2){
